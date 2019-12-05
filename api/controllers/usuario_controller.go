@@ -3,8 +3,8 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/glaubergoncalves/api-estrutura/api/models"
-	"github.com/glaubergoncalves/api-estrutura/api/responses"
+	"github.com/glaubergoncalves/go-api-jwt-token/api/models"
+	"github.com/glaubergoncalves/go-api-jwt-token/api/responses"
 )
 
 func TodosUsuarios(w http.ResponseWriter, r *http.Request) {

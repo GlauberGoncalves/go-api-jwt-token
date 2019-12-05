@@ -1,7 +1,7 @@
 package migrate
 
 import (
-	"github.com/glaubergoncalves/api-estrutura/api/models"
+	"github.com/glaubergoncalves/go-api-jwt-token/api/models"
 	"github.com/jinzhu/gorm"
 )
 

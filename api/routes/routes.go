@@ -3,8 +3,8 @@ package routes
 import (
 	"net/http"
 
-	"github.com/glaubergoncalves/api-estrutura/api/controllers"
-	"github.com/glaubergoncalves/api-estrutura/api/middlewares"
+	"github.com/glaubergoncalves/go-api-jwt-token/api/controllers"
+	"github.com/glaubergoncalves/go-api-jwt-token/api/middlewares"
 )
 
 // CarregaRotas Carrega todas as notas do sistema

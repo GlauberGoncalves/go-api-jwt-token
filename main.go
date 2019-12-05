@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/glaubergoncalves/api-estrutura/api"
-	"github.com/glaubergoncalves/api-estrutura/api/routes"
+	"github.com/glaubergoncalves/go-api-jwt-token/api"
+	"github.com/glaubergoncalves/go-api-jwt-token/api/routes"
 )
 
 func main() {

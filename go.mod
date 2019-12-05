@@ -1,4 +1,4 @@
-module github.com/glaubergoncalves/api-estrutura
+module github.com/glaubergoncalves/go-api-jwt-token
 
 go 1.13
 

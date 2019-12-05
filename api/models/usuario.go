@@ -3,8 +3,8 @@ package models
 import (
 	"encoding/json"
 	"errors"
-	db2 "github.com/glaubergoncalves/api-estrutura/api/db"
-	"github.com/glaubergoncalves/api-estrutura/api/db/redis"
+	db2 "github.com/glaubergoncalves/go-api-jwt-token/api/db"
+	"github.com/glaubergoncalves/go-api-jwt-token/api/db/redis"
 	"html"
 	"log"
 	"strings"

@@ -2,14 +2,14 @@ package controllers
 
 import (
 	"encoding/json"
-	"github.com/glaubergoncalves/api-estrutura/api/auth"
+	"github.com/glaubergoncalves/go-api-jwt-token/api/auth"
 	"io/ioutil"
 	"net/http"
 
-	formaterror "github.com/glaubergoncalves/api-estrutura/api/util"
+	formaterror "github.com/glaubergoncalves/go-api-jwt-token/api/util"
 
-	"github.com/glaubergoncalves/api-estrutura/api/models"
-	"github.com/glaubergoncalves/api-estrutura/api/responses"
+	"github.com/glaubergoncalves/go-api-jwt-token/api/models"
+	"github.com/glaubergoncalves/go-api-jwt-token/api/responses"
 )
 
 func Login(w http.ResponseWriter, r *http.Request) {
