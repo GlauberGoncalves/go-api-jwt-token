@@ -9,7 +9,7 @@ import (
 
 // CarregaRotas Carrega todas as notas do sistema
 func CarregaRotas() {
-	http.HandleFunc("/home", middlewares.SetMiddlewareAuthentication(middlewares.SetMiddlewareJSON(controllers.Home)))
+	http.HandleFunc("/home", middlewares.SetMiddlewareJSON(controllers.Home))
 	http.HandleFunc("/login", middlewares.SetMiddlewareJSON(controllers.Login))
 
 	// usuario
